@@ -16,7 +16,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .header > .links {
@@ -24,41 +24,55 @@ body {
     list-style-type: none;
     display: flex;
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 150px;
     gap: 10px;
 }
 
-.first > .left {
-    margin-left: 100px;
+.first {
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .first > .left > h2 {
     font-size: 48px;
     font-weight: 900px;
     color: #F9FAF8;
+    max-width: 450px;
 }
 
 .first > .left > p {
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 450px;
 }
 
-.first > .left > button {
+button {
     background-color: #3882F6;
     color: #f8f8fa;
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
-    padding: 5px 15px;
+    padding: 8px 35px;
+    
 }
+
 
 .first > .right {
     background-color: rgb(110, 114, 129);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 20px;
     color: #f8f8fa;
+    margin-left: auto;
+    flex-basis: 600px;
+    height:200px;
+    
+
 }
 
 .second {
@@ -86,7 +100,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 150px;
+    max-width: 200px;
     
 }
 
@@ -102,4 +116,83 @@ body {
 
 .text {
     text-align: center;
+    color: #656566;
+    font-size: 18px;
+}
+
+.third {
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.third > .textual {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+
+.third > .textual > .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+ 
+    color: #1f2937;
+}
+
+.third > .textual > .author {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: auto;
+
+}
+
+.fourth {
+    display:flex;
+    padding: 80px 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth > .pop-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 25px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth > .pop-up > .call {
+    color: white;
+    margin: 25px 0px;
+    margin-right: 100px;
+}
+
+.call > .top {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+
+.call > .down {
+    font-size: 15px;
+    margin: 0px 0px;
+}
+
+.pop-up > button {
+    border-color: white;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
 }
